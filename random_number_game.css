@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(10, 2, 16);
+}
+h3{
+    color: whitesmoke;
+    margin-top:150px ;
+    text-align: center;
+    font-size: 26px;
+}
+
+#guess-num{
+    display: block;
+    margin: 70px auto;
+    background-color:rgb(155, 196, 124) ;
+    color:rgb(10, 2, 16);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 500px;
+    height: 70px;
+    text-align: center;  
+    box-shadow: 0px 0px 15px 0px #d3d3d3;
+}
+
+#num-input{
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    margin: 10px auto;
+    padding:0px  40px;
+    font-size: 24px;
+    color:rgb(10, 2, 16) ;
+}
+#warning-text{
+    display: none; 
+    background-color:rgb(10, 2, 16) ;
+    color: whitesmoke;
+    width: 660px;
+    height: 30px;
+    font-size: 26px;
+    padding: 10px;
+    margin: 0px auto;
+    text-align: center;
+}
+#restart{
+    display: none;
+    background-color:rgb(243, 122, 204) ;
+    color:rgb(10, 2, 16);
+    font-size: 24px;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0px 0px 15px 0px #d3d3d3;
+}
+#alert{
+    display: none;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 24px;
+}
+#num-of-guesses{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
